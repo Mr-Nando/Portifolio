@@ -101,11 +101,39 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: center;
+    flex-direction: column;
     padding: 10px;
 }
 
 .icone-contato{
     width: 50px;
     
+}
+.card-projeto{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    font-family: arial, lucida console, monospace;
+    color:off-white;
+}
+
+.foto-projeto{
+    width: 100px;
+}
+
+.contatos-wrapper {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.projetos-wrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
 }
