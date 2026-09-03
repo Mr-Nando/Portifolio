@@ -12,10 +12,13 @@
         <!-- Inicio do navbar -->
         <div class="container">
             <header class="navbar">
+                <a href="#">
                 <img src="burningboatlogo.png" alt="Logo" class="logo">
+                </a>
                 <nav> 
                     <a href="#sobre" class="cabecalho">Sobre</a>
                     <a href="#projetos" class="cabecalho">Projetos</a>
+                    <a href="#3d" class="cabecalho">3D</a>
                     <a href="#conhecimentos" class="cabecalho">Conhecimentos</a>
                     <a href="#contato" class="cabecalho">Contato</a>
                 </nav>
@@ -23,9 +26,11 @@
 
             <!-- Inicio do quadrado preto EU -->
             <div class="card-portifolio">
+                <a href="curriculo.pdf" target="_blank" rel="noopener noreferrer">
                 <img src="eu.PNG" alt="Minha foto" class="foto" width="300">
+                </a>
                 <div class="card-content">
-                    <h1>Olá, meu nome é Fernando Júnior</h1>
+                    <h1>Olá, meu nome é <span id="nome">Fernando Júnior</span></h1>
                     <p>Sou um desenvolvedor web aprendendo e criando soluções<br> digitais para tentar fazer do mundo um lugar melhor.</p>
                 </div>            
             </div>
@@ -34,7 +39,15 @@
             <div class="card-portifolio" id="sobre">                
                 <div class="card-content">
                     <h1>Sobre</h1>
-                    <p>Sou estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento web e infraestrutura. Gosto de entender como as coisas funcionam por debaixo do capô, desde construir interfaces funcionais até lidar com o ambiente onde as aplicações rodam. Busco constantemente criar projetos práticos para consolidar meus conhecimentos e estou sempre aberto a novos desafios na área de tecnologia.</p>
+                    <p>Sou estudante de Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento web, infraestrutura de redes e tecnologia de forma geral. Gosto de entender como as coisas funcionam por baixo do capô, desde o hardware e a comunicação entre dispositivos até a lógica por trás de um programa e o ambiente onde uma aplicação é executada.</p>
+
+                    <p>Tenho um perfil curioso e bastante voltado para a prática: gosto de transformar o que aprendo em projetos e também de investigar e resolver problemas reais, buscando entender não apenas <em>como</em> fazer algo, mas <em>por que</em> aquilo funciona.</p>
+
+                    <p>Além da programação e infraestrutura, também possuo experiência prática com <strong>impressão 3D e fabricação digital</strong>, trabalhando com <strong>Ultimaker Cura</strong> para preparação e fatiamento de modelos, configuração e otimização de perfis de impressão, geração e análise de <strong>G-code</strong>, além de calibração e ajustes de parâmetros como temperatura, retração, velocidade e suportes. Também tenho familiaridade com <strong>firmwares e sistemas de controle de impressoras 3D, como Klipper</strong>, realizando configurações, ajustes e diagnóstico de problemas relacionados à máquina e ao processo de impressão.</p>
+
+                    <p>Estou constantemente aprimorando meus conhecimentos em <strong>programação, bancos de dados, desenvolvimento web, redes, infraestrutura, hardware e fabricação digital</strong>. Busco evoluir continuamente como profissional, encarando novos desafios como oportunidades para aprender, experimentar e construir soluções cada vez melhores.</p>
+
+                    <p><strong>Minha maior motivação na tecnologia é a curiosidade: quando algo não funciona, minha primeira vontade é descobrir o motivo.</strong></p>
                 </div>            
             </div>
 
@@ -48,7 +61,7 @@
                                 <img src="projeto1.jpg" alt="Projeto 1" class="foto-projeto">
                             </a>
                             <h2>e-SFERA</h2>
-                            <p>Gerador de orçamentos para empresas de serviços, onde se pode criar e enviar orçamentos de forma rápida e eficiente. (WIP)</p>
+                            <p>Gerador de orçamentos para empresas de serviços, onde se pode criar e enviar orçamentos de forma rápida e eficiente. <br> [Em Desenvolvimento]</p>
                         </div>
 
                         <div class="card-projeto">
@@ -56,7 +69,7 @@
                                 <img src="projeto2.png" alt="Projeto 2" class="foto-projeto">
                             </a>
                             <h2>O 1° HTML</h2>
-                            <p>Nascido como objeto de estudos, segue sendo meu ambiente preferido de testes em HTML.</p>
+                            <p>Página desenvolvida para consolidação de semântica HTML5, boas práticas de estruturação e testes de acessibilidade web</p>
                         </div>
 
                         <div class="card-projeto">
@@ -70,18 +83,79 @@
                 </div>            
             </div>
 
+            <!-- Inicio do quadrado preto 3D -->
+            <div class="card-portifolio" id="3d"> 
+                <div class="card-content">
+                    <h1>3Ds</h1>
+                    <div class="projetos-wrapper">
+                        <div class="card-projeto">                            
+                                <img src="vasinhos.png" alt="Vasinhos" class="foto-projeto">
+                            <h2>Vasinho de planta "Cabeçudinho"</h2>
+                            <p>Vaso para plantas em material ABS resistente a sol e água.</p>
+                        </div>
+
+                        <div class="card-projeto">
+                                <img src="miniexaustor.png" alt="exaustor" class="foto-projeto">
+                            <h2>Mini Exaustor</h2>
+                            <p>Mini exaustor em ABS e PLA para remover gases tóxicos provenientes do derretimento dos filamentos.</p>
+                        </div>
+
+                        <div class="card-projeto">
+                                <img src="chaveiro.png" alt="chaveiro" class="foto-projeto">
+                            <h2>Chaveiro Polaroid</h2>
+                            <p>Chaveiro para colocar uma foto de 1cm x 1cm.</p>
+                        </div>                                                
+                    </div>
+                </div>            
+            </div>
+
             <!-- Inicio do quadrado preto Conhecimentos -->
             <div class="card-portifolio" id="conhecimentos">                
                 <div class="card-content">
-                    <h1>Conhecimentos</h1>                    
-                </div>            
+                    <h1>Conhecimentos</h1>
+                        <div class="conhecimentos-wrapper">
+                            <div class="card-conhecimento">
+                                <img src="html-5.png" alt="HTML Icon" class="icone-conhecimento">
+                                <p>HTML</p>
+                            </div>
+
+                            <div class="card-conhecimento">
+                                <img src="css-3.png" alt="CSS Icon" class="icone-conhecimento">
+                                <p>CSS</p>
+                            </div>                                                   
+
+                            <div class="card-conhecimento">
+                                <img src="mysql.png" alt="MySQL Icon" class="icone-conhecimento">
+                                <p>MySQL</p>
+                            </div>
+
+                            <div class="card-conhecimento">
+                                <img src="github-icon-2.svg" alt="GitHub-Icon" class="icone-conhecimento">
+                                <p>GitHub</p>
+                            </div>
+                            
+                            <div class="card-conhecimento">
+                                <img src="Cura.png" alt="Cura Icon" class="icone-conhecimento">
+                                <p>Ultimaker Cura</p>
+                            </div>
+
+                            <div class="card-conhecimento">
+                                <img src="impressora-3d.png" alt="impressora-3d" class="icone-conhecimento">
+                                <p>FDM 3D Printing</p>
+                            </div>
+                            
+                            <div class="card-conhecimento">
+                                <img src="camera-cftv.png" alt="cameras-cftv" class="icone-conhecimento">
+                                <p>Monitoramento CFTV</p>
+                            </div>
+                        </div>            
+                </div>
             </div>
 
             <!-- Inicio do quadrado preto CONTATO -->
             <div class="card-portifolio" id="contato">                      
                 <div class="card-content">
                     <h1>Contato</h1>
-
                     <div class="contatos-wrapper">
                         <div class="card-contato">
                             <a href="https://www.instagram.com/eu.nandojr/?__pwa=1" target="_blank">

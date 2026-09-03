@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
     
     
@@ -11,6 +12,7 @@ h1{
     letter-spacing: 1px;
     display: flex;
     flex-direction: column;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 20);
 
 }
 body{
@@ -56,6 +58,9 @@ body{
 
 }
 .navbar{
+    position:sticky;
+    top: 10px;
+    z-index: 1000;
     width: 98%;
     background-color: rgb(31, 31, 31);
     color: white;
@@ -67,9 +72,13 @@ body{
     gap: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
-.img.foto{
+.foto{
     border-radius: 50%;
     margin-bottom: 20px;
+}
+
+.foto:hover{
+    transform: scale(1.1)
 }
 
 header{
@@ -151,7 +160,7 @@ header{
 
 .contatos-wrapper {
     display: flex;
-    gap: 200px;
+    gap: 2rem;
     align-items: center;
 }
 
@@ -160,4 +169,37 @@ header{
     gap: 16px;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.card-conhecimento{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    font-family: arial, lucida console, monospace;
+    color:off-white;
+    display:inline-block
+}
+
+.card-conhecimento:hover {
+    transform: scale(1.1);
+    color: rgb(255, 230, 0);
+}
+
+.icone-conhecimento{
+    display: flex;
+    width: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#nome{
+    color: rgb(255, 230, 0);
+    font-size: 50px;
 }
