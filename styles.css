@@ -86,6 +86,13 @@ header{
     font-family: Impact, fantasy;
     justify-content: space-between;
     gap: 200px;
+    display:inline-block
+    
+}
+
+.cabecalho:hover {
+    transform: scale(1.1);
+    color: rgb(255, 230, 0);
 }
 
 .logo{
@@ -96,6 +103,11 @@ header{
     height: 50px;
 }
 
+.logo:hover {
+    transform: scale(1.1);
+    color: rgb(255, 230, 0);
+}
+
 .card-contato{
     gap: 20px;
     display: flex;
@@ -103,6 +115,13 @@ header{
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    display:inline-block
+    
+}
+
+.card-contato:hover {
+    transform: scale(1.1);
+    color: rgb(255, 230, 0);
 }
 
 .icone-contato{
@@ -119,6 +138,11 @@ header{
     text-align: center;
     font-family: arial, lucida console, monospace;
     color:off-white;
+}
+
+.card-projeto:hover {
+    transform: scale(1.1);
+    color: rgb(255, 230, 0);
 }
 
 .foto-projeto{
