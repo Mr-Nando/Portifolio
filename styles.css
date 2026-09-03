@@ -75,10 +75,12 @@ body{
 .foto{
     border-radius: 50%;
     margin-bottom: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .foto:hover{
     transform: scale(1.1)
+
 }
 
 header{
@@ -95,7 +97,8 @@ header{
     font-family: Impact, fantasy;
     justify-content: space-between;
     gap: 200px;
-    display:inline-block
+    display:inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
     
 }
 
@@ -110,6 +113,7 @@ header{
     justify-content: space-between;
     margin: 0 50px;
     height: 50px;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .logo:hover {
@@ -124,7 +128,8 @@ header{
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    display:inline-block
+    display:inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
     
 }
 
@@ -147,6 +152,7 @@ header{
     text-align: center;
     font-family: arial, lucida console, monospace;
     color:off-white;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .card-projeto:hover {
@@ -181,7 +187,8 @@ header{
     text-align: center;
     font-family: arial, lucida console, monospace;
     color:off-white;
-    display:inline-block
+    display:inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .card-conhecimento:hover {
