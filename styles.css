@@ -8,13 +8,25 @@ html{
 h1{
     color: rgb(255, 255, 255);
     text-align: left;    
-    font-family: impact, fantasy;
+    font-family: "Share Tech Mono", monospace;
     letter-spacing: 1px;
     display: flex;
     flex-direction: column;
     text-shadow: 10px 10px 20px rgba(0, 0, 0, 20);
 
 }
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: left;    
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 20);
+
+}
+
 body{
     background-color: rgb(255, 230, 0);
     color: white;
@@ -35,6 +47,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Share Tech Mono", monospace;
 }
 .card-portifolio{
     background-color: rgb(31, 31, 31);
@@ -209,4 +222,17 @@ header{
 #nome{
     color: rgb(255, 230, 0);
     font-size: 50px;
+}
+
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
