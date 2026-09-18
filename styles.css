@@ -120,6 +120,7 @@ header{
 .cabecalho:hover {
     transform: scale(1.1);
     color: rgb(255, 230, 0);
+
 }
 
 .logo{
@@ -170,9 +171,29 @@ header{
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+
+.card-projeto-3d{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    font-family: arial, lucida console, monospace;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
 .card-projeto:hover {
     transform: scale(1.1);
     color: rgb(255, 230, 0);
+}
+
+.card-projeto-3d:hover {
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 0);
+    border-radius: 10px;
 }
 
 .foto-projeto{
@@ -237,7 +258,34 @@ header{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}   
+}
+
+.botao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;             
+    margin: 20px 0;
+}
+
+.botao button {
+    background-color: transparent;
+    color: rgb(255, 230, 0); 
+    border: 2px solid rgb(255, 230, 0);
+    padding: 12px 28px;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao button:hover {
+    background-color: rgb(255, 230, 0);
+    color: rgb(31, 31, 31);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 230, 0, 0.5);
+}
 
 @media (max-width: 768px){
 
